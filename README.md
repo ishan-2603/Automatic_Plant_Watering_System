@@ -5,19 +5,19 @@ The automatic plant watering system is an Arduino-based project designed to auto
 
 # Workflow 
 
-# Soil Moisture Detection
+## Soil Moisture Detection
 The soil moisture sensor continuously measures the moisture level in the soil by detecting its electrical conductivity. As the moisture content varies, the sensor outputs corresponding analog voltage signals, which are read by the Arduino.
 
-# Data Processing and Decision Making
+## Data Processing and Decision Making
 The Arduino is programmed to compare the sensor’s readings with a predefined moisture threshold. If the moisture level is below the set threshold, indicating that the soil is too dry, the Arduino activates the relay module.
 
-# Water Pump Activation
+## Water Pump Activation
 The relay, functioning as an electronic switch, connects the water pump to the power supply when activated. This action turns on the water pump, allowing water to flow to the plant until the soil moisture reaches the desired level.
 
-# Automatic Pump Shutdown
+## Automatic Pump Shutdown
 As the soil absorbs water, the sensor detects the increase in moisture content. When the moisture level exceeds the defined threshold, the Arduino deactivates the relay, turning off the water pump. This ensures that the plant receives adequate water without overwatering.
 
-# Looping Operation
+## Looping Operation
 The system continuously monitors soil moisture in real-time, repeating the process to maintain optimal soil conditions.
 
 The project's design ensures efficient water usage by delivering water only when needed, minimizing waste and overwatering risks. The automation significantly reduces manual effort and supports the healthy growth of plants. This setup can be adapted for various applications, such as home gardens, potted plants, and agricultural fields, providing a scalable and cost-effective irrigation solution.
